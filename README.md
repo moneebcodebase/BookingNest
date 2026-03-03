@@ -29,7 +29,7 @@ Here are some snapshots of BookingNest in action:
   ![Check-in](assets/Check-in.png)
 
 - **Booking Details:**  
-  ![Booking](assets/Booking.png)
+  ![Booking](https://github.com/moneebcodebase/BookingNest/blob/main/assets/Booking.png)
 
 ## 🧭 Overview
 
