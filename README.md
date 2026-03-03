@@ -1,84 +1,101 @@
-# Movie Scope
+# BookingNest
 
 ![Made with React](https://img.shields.io/badge/Made%20with-React-blue?logo=react&style=flat-square)
-![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-teal?logo=tailwind-css&style=flat-square)
-![Appwrite](https://img.shields.io/badge/Backend-Appwrite-orange?logo=appwrite&style=flat-square)
+![Supabase](https://img.shields.io/badge/Backend-Supabase-blue?logo=supabase&style=flat-square)
+![React Router](https://img.shields.io/badge/Routing-React%20Router-dom-orange?logo=react-router&style=flat-square)
+![React Query](https://img.shields.io/badge/State-React%20Query-lightgrey?style=flat-square)
+![Recharts](https://img.shields.io/badge/Charts-Recharts-red?style=flat-square)
 ![License MIT](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 ![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=flat-square)
 
-MovieScope is a modern web application that allows users to search for movies, explore trending films, and browse up-to-date movie listings. Built with React, styled with TailwindCSS, and powered by Appwrite as the backend, it leverages the TMDB API to provide the latest movie data. The app features search functionality, pagination, dynamic movie listings, and fully responsive, making it an engaging movie discovery platform.
+BookingNest is a modern admin dashboard for managing cabin bookings. Built with React and Supabase, it provides full CRUD functionality for cabins, users, and bookings. The platform includes an analytics dashboard with revenue, occupancy metrics, charts, server-side pagination, filtering, search, image uploads, and dark mode — all designed to deliver a clean and responsive admin experience.
 
 ---
 
 ## 📸 Screenshots
 
-Here are some snapshots of Movie Scope in action:
+Here are some snapshots of BookingNest in action:
 
-- **Hero:**  
-  ![Hero](app-screenshots/1.png)
+- **Dashboard Overview:**  
+  ![Dashboard](assets/Dashboard.png)
 
-- **Trending Movies:**  
-  ![Trending Movies](app-screenshots/2.png)
+- **Cabins Management:**  
+  ![Cabins](assets/Cabins.png)
 
-- **Movies Listing:**  
-  ![Movies Listing](app-screenshots/3.png)
+- **Bookings Overview:**  
+  ![Bookings](assets/Bookings.png)
 
-- **Pagination:**  
-  ![Pagination](app-screenshots/4.png)
+- **Check-in Details:**  
+  ![Check-in](assets/Check-in.png)
+
+- **Booking Details:**  
+  ![Booking](assets/Booking.png)
 
 ## 🧭 Overview
 
-- Search for movies using keywords.
-- Browse the latest trending and popular movies.
-- Navigate through movies with pagination.
-- View detailed information about each movie.
-- Get real-time updates from the TMDB API.
+- Admin dashboard only for managing cabins and bookings
+- Email/password authentication with email verification
+- Protected routes for secure access
+- Context API + React Query for global state and server state management
+- Advanced filtering, sorting, and search
+- Image uploads for cabins
+- Server-side pagination for bookings and cabins
+- Dark mode support
+- Full-stack React + Supabase architecture
 
 ---
 
 ## ✨ Key Features
 
-### 🔍 Search & Discovery
+### 🏠 Cabin & Booking Management
 
-- Search for movies by title
-- Real-time results with dynamic updates
-- Supports partial and full matches
+- Create, read, update, and delete cabins
+- Manage bookings and check-ins
+- Upload images for cabins
+- Server-side pagination and sorting
 
-### 🏷️ Pagination
+### 📊 Analytics Dashboard
 
-- Browse through multiple pages of movie results
-- Smooth navigation for large datasets
+- Track total bookings, revenue, and occupancy rate
+- Visual charts using Recharts (line & pie)
+- Real-time dashboard updates
+
+### 🔐 Authentication & Security
+
+- Email/password authentication
+- Email verification for new users
+- Protected routes for admin-only access
+- Role-based access if extended later
 
 ### 🎨 Modern UI
 
-- Responsive design built with TailwindCSS
-- Mobile-first, clean layout for all devices
-- Interactive and intuitive user experience
+- Dark mode toggle
+- Responsive design for mobile and desktop
+- Loading spinners for smooth UX
+- Compound components and reusable UI elements
 
 ### ⚙️ Backend Integration
 
-- Powered by Appwrite for database operations and data management
-- Fetches live movie data from TMDB API
-- Supports future expansion for user accounts or favorites
-
+- Supabase for database and authentication
+- Handles CRUD operations securely
+- Real-time data fetching and caching with React Query
+- Context API for shared global state
 ---
 
 
 ## 🚀 How to Run
 
 1. Clone the repository
-2. Cd Movie-Scope
+2. Cd BookingNest
 3. Open the terminal and type (npm install)
 4. Run the porjct (npm run dev)
 
 
 ## 📈 Future Enhancements
 
-- User authentication and personalized favorites
-- Movie rating and review system
-- Dark mode toggle
-- Recommendations and watchlists
-- Deployment to Vercel / Netlify
+- Public-facing booking portal for users
+- Role-based access for different admin levels
+- Booking calendar view
 
 ## 📄 License
 
